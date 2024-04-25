@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eco_friendly_activity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="222dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Ecofriendly Gifts"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="297dp"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/eco_friendly_giftspng"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="153dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Unique gifts   "
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="331dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:text="Curated to make every special moment a  celebration"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/table"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/spoons"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/box"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="40dp"
+        android:layout_height="16dp"
+        android:text="Table"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:text="Spoons"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="30dp"
+        android:layout_height="16dp"
+        android:text="Box"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/pouches"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/giftpacks"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/bag"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="pouches"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="687dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Gift Pack"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="688dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Hand Bag"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="688dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

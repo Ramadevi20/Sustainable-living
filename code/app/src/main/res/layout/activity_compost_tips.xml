@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compost_tips_activity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="343dp"
+        android:layout_height="79dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_gray"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="265dp"
+        android:layout_height="20dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="147dp"
+        android:layout_height="16dp"
+        android:text="Two month challenge"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="65dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/bin"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Tips"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView41"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="@+id/imageView41"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="353dp"
+        android:layout_height="60dp"
+        android:text="Having a Compost Bin will improve your soil health as it Helps retain moisture and nutrients That is essential for a healthy garden"
+        app:layout_constraintEnd_toEndOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/textView41"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/textView42"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView42"
+        app:srcCompat="@drawable/tips_rectangle"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="212dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="What you learn challange?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="135dp"
+        android:layout_height="20dp"
+        android:text="Waste Reduction"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="148dp"
+        android:layout_height="20dp"
+        android:text="Composting Basics"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="167dp"
+        android:layout_height="20dp"
+        android:text="Environmental Impact"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="183dp"
+        android:layout_height="20dp"
+        android:text="Home Gardening impact"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:text="Resourcefulness"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="164dp"
+        android:layout_height="20dp"
+        android:text="Sustainable Practices"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="205dp"
+        android:layout_height="154dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView47"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/imageView47"
+        app:srcCompat="@drawable/gift"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="292dp"
+        android:layout_height="22dp"
+        android:text="Complete the challange win must reawrds"
+        app:layout_constraintEnd_toEndOf="@+id/imageView48"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/imageView48"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="343dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
+        android:text="Start"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.545" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

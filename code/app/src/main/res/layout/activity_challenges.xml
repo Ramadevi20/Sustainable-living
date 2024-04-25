@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".challenges_activity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="152dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Challenges"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/challenges_box"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="297dp"
+        android:layout_height="25dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:text="Two month challenge"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="564dp"
+        android:background="@color/black"
+        android:fontFamily="@font/archivo_black"
+        android:text="View Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:backgroundTint="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="564dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/archivo_black"
+        android:text="Start"
+        android:textSize="8sp"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/challenges_box"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="297dp"
+        android:layout_height="25dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:text="1 month challenge"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="444dp"
+        android:background="@color/black"
+        android:fontFamily="@font/archivo_black"
+        android:text="View Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:backgroundTint="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="444dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/archivo_black"
+        android:text="Start"
+        android:textSize="8sp"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/challenges_box"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="297dp"
+        android:layout_height="25dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:text="Two Weeks challenge"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="316dp"
+        android:background="@color/black"
+        android:fontFamily="@font/archivo_black"
+        android:text="View Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:backgroundTint="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="316dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/archivo_black"
+        android:text="Start"
+        android:textSize="8sp"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/challenges_box"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="297dp"
+        android:layout_height="25dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:text="3 Months challenge"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="192dp"
+        android:background="@color/black"
+        android:fontFamily="@font/archivo_black"
+        android:text="View Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:backgroundTint="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="192dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/archivo_black"
+        android:text="Start"
+        android:textSize="8sp"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/challenges_box"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="297dp"
+        android:layout_height="25dp"
+        android:text="Have a compost bin, start composting"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:text="2 Months 2weeks  challenge"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="76dp"
+        android:background="@color/black"
+        android:fontFamily="@font/archivo_black"
+        android:text="View Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:backgroundTint="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="76dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/archivo_black"
+        android:text="Start"
+        android:textSize="8sp"
+        app:backgroundTint="#24651F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.568" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

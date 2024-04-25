@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23981006329",
+    "project_id": "sustainable-living-b74e1",
+    "storage_bucket": "sustainable-living-b74e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23981006329:android:c0c0e7d55adf67b1eaf128",
+        "android_client_info": {
+          "package_name": "com.example.greensteps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApiT8itaYhxZVABTY9KTGOpsejMwM1QKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

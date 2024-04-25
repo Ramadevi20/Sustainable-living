@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenSteps"
+        tools:targetApi="31">
+        <activity
+            android:name=".hello_page_activity"
+            android:exported="false" />
+        <activity
+            android:name=".plastic_alternatives_three_activity"
+            android:exported="false" />
+        <activity
+            android:name=".plastic_alternatives_two_activity"
+            android:exported="false" />
+        <activity
+            android:name=".plastic_alternatives_activity"
+            android:exported="false" />
+        <activity
+            android:name=".eco_friendly_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notifications_activity"
+            android:exported="false" />
+        <activity
+            android:name=".challenges_activity"
+            android:exported="false" />
+        <activity
+            android:name=".compost_tips_activity"
+            android:exported="false" />
+        <activity
+            android:name=".compost_challenges_two_activity"
+            android:exported="false" />
+        <activity
+            android:name=".compost_challagens_activity"
+            android:exported="false" />
+        <activity
+            android:name=".rewards_pionts_activity"
+            android:exported="false" />
+        <activity
+            android:name=".compost_bin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Day_two_activity"
+            android:exported="false" />
+        <activity
+            android:name=".rewards_two_activity"
+            android:exported="false" />
+        <activity
+            android:name=".rewards_activity"
+            android:exported="false" />
+        <activity
+            android:name=".verify_email_activity"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_activity"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".profile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Terms_Conditions_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutus_activity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpassword_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Createpassword_activity"
+            android:exported="false" />
+        <activity
+            android:name=".signupactivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".startactivity3"
+            android:exported="false" />
+        <activity
+            android:name=".startactivity2"
+            android:exported="false" /> <!-- Define startactivity as an exported activity -->
+        <activity
+            android:name=".startactivity"
+            android:exported="true" /> <!-- Define splash_screen as the launcher activity -->
+        <activity
+            android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Add any other activities here -->
+        <!-- Define meta-data for preloaded fonts -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
